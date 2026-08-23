@@ -12,5 +12,10 @@
     "react-dom": "latest",
     "@ai-sdk/groq": "latest",
     "ai": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "@types/react": "latest",
+    "@types/node": "latest"
   }
 }
