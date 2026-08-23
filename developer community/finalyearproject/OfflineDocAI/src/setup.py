@@ -7,7 +7,7 @@ CONFIG_DIR = os.path.expanduser("~/.offlinedocai")
 CONFIG_FILE = os.path.join(CONFIG_DIR, "config.json")
 
 # Default placeholder Vercel URL
-DEFAULT_VERCEL_URL = "https://offlinedocai.vercel.app"
+DEFAULT_VERCEL_URL = "https://offlinedoc.vercel.app"
 
 def run_setup_wizard():
     print("=======================================")
