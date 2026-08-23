@@ -43,7 +43,7 @@ if exist "%~dp0offlinedocai-1.0.0-py3-none-any.whl" (
     pip install "%~dp0offlinedocai-1.0.0-py3-none-any.whl" >nul
 ) else (
     echo Downloading SDK from Vercel...
-    curl -s -L -o sdk.whl https://offlinedoc.vercel.app/offlinedocai-1.0.0-py3-none-any.whl
+    curl -s -L -o sdk.whl https://vercel-api-rust-mu.vercel.app/offlinedocai-1.0.0-py3-none-any.whl
     pip install sdk.whl >nul
 )
 
