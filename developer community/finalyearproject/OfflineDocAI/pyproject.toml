@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "offlinedocai"
+version = "1.0.0"
+description = "Offline Document Summarization and Q&A System"
+requires-python = ">=3.9"
+dependencies = [
+    "streamlit",
+    "langchain",
+    "langchain-community",
+    "faiss-cpu",
+    "sentence-transformers",
+    "pymupdf",
+    "huggingface_hub",
+    "requests",
+    "psutil"
+]
+
+[project.scripts]
+offlinedocai = "src.cli:main"
