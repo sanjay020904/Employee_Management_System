@@ -1,9 +1,0 @@
-streamlit
-langchain
-langchain-community
-faiss-cpu
-sentence-transformers
-pymupdf
-huggingface_hub
-requests
-psutil
